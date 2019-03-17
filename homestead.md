@@ -12,4 +12,12 @@ vagrant status      # 查看虚拟机运行状态
 vagrant destroy --force    # 删除虚拟机
 vagrant reload --provision # 更新虚拟机上的配置
 ```
+```
+IP: 192.168.10.10
+用户名: vagrant
+密码: vagrant
+```
+```
+$ mysql -h 192.168.10.10 -u homestead -psecret
+```
 
